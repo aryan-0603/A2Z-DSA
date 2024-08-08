@@ -10,6 +10,7 @@ public class bubble {
             System.out.print(arr[i]+" ");
         }
         for (int i = n-1; i>=1; i--) {
+            int swap=0;
             for(int j=0;j<=i-1;j++){
                 if(arr[j]>arr[j+1]){
                     int t=arr[j];
@@ -17,6 +18,8 @@ public class bubble {
                     arr[j+1]=t;
                 }
             }
+            if(swap==0)
+                break;
         }
         System.out.println("\nAfter swap:");
         for (int i = 0; i < 10; i++) {
