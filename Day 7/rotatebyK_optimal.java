@@ -11,9 +11,10 @@ public class rotatebyK_optimal {
         }
     }
     public static void rotate(int arr[],int n,int d) {
-        reverse(arr, 0, d-1);
-        reverse(arr, d, n-1);
-        reverse(arr, 0, n-1);
+        d=d%n;                   //for right rotation
+        reverse(arr, 0, d-1);    //reverse(nums, 0, n - 1);
+        reverse(arr, d, n-1);    //reverse(nums, 0, d - 1);
+        reverse(arr, 0, n-1);    //reverse(nums, d, n - 1); 
     }
     public static void main(String args[]){
      int n = 10;
