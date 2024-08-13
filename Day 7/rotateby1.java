@@ -17,7 +17,7 @@ public class rotateby1 {
             System.out.print(arr[i] + " ");
         }
         rotate(arr,n);
-        System.out.println("\nAfter insertion sort: ");
+        System.out.println("\nAfter rotation: ");
         for (int i = 0; i < n; i++) {
             System.out.print(arr[i] + " ");
         }
