@@ -1,5 +1,5 @@
 import java.util.Random;
-public class rotatebyK {
+public class rotateby1 {
     public static void rotate(int arr[],int n){
         int temp=arr[0];
         for (int i = 0; i < n-1; i++) {
