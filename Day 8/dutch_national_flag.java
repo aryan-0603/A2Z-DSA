@@ -1,3 +1,5 @@
+// To sort array or such data structure with three elements randomly re-occuring
+
 import java.util.Arrays;
 
 public class dutch_national_flag {
